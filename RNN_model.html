@@ -253,7 +253,7 @@ util.py is a class to process the data and hw4.py is the code of the model.</p><
 <span class="hljs-keyword">import</span> tensorflow <span class="hljs-keyword">as</span> tf
 
 <span class="hljs-keyword">from</span> utils.util <span class="hljs-keyword">import</span> DataManager
-</div></div></code></pre><h3 id="set-train-details"><a class="anchor hidden-xs" href="#set-train-details" title="set-train-details"><span class="octicon octicon-link"></span></a>Set train details</h3><pre><code class="python hljs"><div class="wrapper"><div class="gutter linenumber continue"><span data-linenumber="18"></span>
+</div></div></code></pre><h3 id="set-training-details"><a class="anchor hidden-xs" href="#set-train-details" title="set-train-details"><span class="octicon octicon-link"></span></a>Set train details</h3><pre><code class="python hljs"><div class="wrapper"><div class="gutter linenumber continue"><span data-linenumber="18"></span>
 <span data-linenumber="19"></span>
 <span data-linenumber="20"></span>
 <span data-linenumber="21"></span>
@@ -605,9 +605,9 @@ semi_path = <span class="hljs-string">'data/training_nolabel.txt'</span>
 <span data-linenumber="2"></span></div><div class="code"><span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">'__main__'</span>:
         main()
 </div></div></code></pre><h2 id="how-to-use"><a class="anchor hidden-xs" href="#how-to-use" title="how-to-use"><span class="octicon octicon-link"></span></a>How to use</h2><h3 id="supervised-training-for-example"><a class="anchor hidden-xs" href="#supervised-training-for-example" title="supervised-training-for-example"><span class="octicon octicon-link"></span></a>supervised training (for example)</h3><blockquote>
-<p><strong>python3 <a href="http://hw4.py" target="_blank">hw4.py</a> &lt;model_name&gt; train --cell LSTM</strong></p>
+<p><strong>python3 hw4.py &lt;model_name&gt; train --cell LSTM</strong></p>
 </blockquote><h3 id="semi-supervised-training"><a class="anchor hidden-xs" href="#semi-supervised-training" title="semi-supervised-training"><span class="octicon octicon-link"></span></a>semi-supervised training</h3><blockquote>
-<p><strong>python3 <a href="http://hw4.py" target="_blank">hw4.py</a> &lt;semi_model_name&gt; semi --lode_model &lt;model_name&gt;</strong></p>
+<p><strong>python3 hw4.py &lt;semi_model_name&gt; semi --load_model &lt;model_name&gt;</strong></p>
 </blockquote></div>
     <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
         <div class="pull-right dropdown">
